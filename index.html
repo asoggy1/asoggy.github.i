@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital website design trial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="ABOUT.htlm",><img src="pics/logo.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">DEPARTMENTS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>World class medical services</h1>
+        <p>this is some write up to make the said hospital be a lot more aestheticaly pleasing with <br> some big words i cant think of right now</p>
+        <a href="" class="hero-btn">visit us to know more</a>
+
+    </div>
+    
+    </section>
+    <!-- ----departments---- -->
+    <section class="course">
+        <h1>flash services</h1>
+        <p>this is something refering to the different services you would like to inquire about immediately</p>
+        <div class="row">
+            <div class="dep-col">
+                <h3>emergency</h3>
+                <p>something osadoskdosjd ondojd  od djsodsod sdjsdosods dsdjdoadojskdsdsddsds.
+                    odkosdskdskdoskdosdskdksdoso osnosdjs dsodns dsod so dsds ds od so dsod 
+                  ds dosdsd ss pdos od sod osdos d sdpsdp sodspdso dsdsdos ds od
+                </p>
+            </div>
+            <div class="dep-col">
+                <h3>intermediate</h3>
+                <p>something osadoskdosjd ondojd  od djsodsod sdjsdosods dsdjdoadojskdsdsddsds.
+                    odkosdskdskdoskdosdskdksdoso osnosdjs dsodns dsod so dsds ds od so dsod 
+                  ds dosdsd ss pdos od sod osdos d sdpsdp sodspdso dsdsdos ds od
+                </p>
+            </div>
+            <div class="dep-col">
+                <h3>Ante-natal</h3>
+                <p>something osadoskdosjd ondojd  od djsodsod sdjsdosods dsdjdoadojskdsdsddsds.
+                    odkosdskdskdoskdosdskdksdoso osnosdjs dsodns dsod so dsds ds od so dsod 
+                  ds dosdsd ss pdos od sod osdos d sdpsdp sodspdso dsdsdos ds od
+                </p>
+            </div>
+ 
+ 
+        </div>
+    </section>
+    <!-- ----branches---- -->
+
+    <section class="branches">
+        <h1>our various national branches</h1>
+        <p>some kind of foreshadowing to the information about our various branches throughout the country.</p>
+        <div class="row">
+            <div class="branch-col">
+                <img src="pics/lag.jpg">
+                <div class="layer">
+                    <h3>LAGOS</h3>
+                </div>
+            </div>
+            <div class="branch-col">
+                <img src="pics/eng.jpg">
+                <div class="layer">
+                    <h3>ENUGU</h3>
+                </div>
+            </div>
+            <div class="branch-col">
+                <img src="pics/abj.jpg">
+                <div class="layer">
+                    <h3>ABUJA</h3>
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <!----Facilities---->
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>We have the best facilities around all over in our different branches</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="pics/facilities.jpg">
+                <h3>World class medical services</h3>
+                <P>We ensure that we get all our facilities from the Best Companies And Also Ensure That Each OF OUr Equipment Are Properly Tested Before Use</P>
+            </div>
+            
+            <div class="facilities-col">
+                <img src="pics/best.jpg">
+                <h3>Clean Environment</h3>
+                <P>We ensure that we get all our facilities from the Best Companies And Also Ensure That Each OF OUr Equipment Are Properly Tested Before Use</P>
+            </div>
+            
+            <div class="facilities-col">
+                <img src="pics/try.jpg">
+                <h3>World class medical services</h3>
+                <P>We ensure that we get all our facilities from the Best Companies And Also Ensure That Each OF OUr Equipment Are Properly Tested Before Use</P>
+            </div>
+            
+        </div>
+
+    </section>
+    
+    <!-----testimonials--------->
+
+    <section class="testimonials">
+        <h1>What OUr Patients Say About US</h1>
+        <p>We have the best facilities available, all over in our different branches</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+<!------javascript for the toggle menu------>
+<script>
+    var navlinks = document.getElementById("navlinks")
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+<!-------Footer----->
+<section class="footer">
+    <h4> About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, a id quia, enim culpa similique atque, voluptates dolores provident corporis aperiam quae beatae totam cupiditate rerum hic eius maxime accusamus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+</section>
+</body>
+
+
+</html>
